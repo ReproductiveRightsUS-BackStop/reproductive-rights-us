@@ -10,10 +10,9 @@ export default function MainArea() {
     
 
     return (
-        <div>
+        <div className="relative top-36">
             <AppRoutes />
             <Outlet />
-     
         </div>
     )
 }

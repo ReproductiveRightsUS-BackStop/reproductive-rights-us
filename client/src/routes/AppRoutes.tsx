@@ -13,7 +13,6 @@ export default function AppRoutes() {
             <Route path="/emergency-care"
                 element={<EmergencyCare />}
             />
-            
         </Routes>
     )
 } 

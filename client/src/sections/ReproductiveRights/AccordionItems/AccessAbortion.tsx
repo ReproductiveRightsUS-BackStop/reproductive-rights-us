@@ -1,3 +1,4 @@
+import ExternalLink from "../../../components/ExternalLink";
 
 
 
@@ -21,7 +22,8 @@ export default function AccessAbortion() {
             <ul className="list-disc m-3">
                 <li className="p-2">
                     While federal Medicaid funds can only cover abortion in the circumstances of rape, incest or if the patient’s life is in danger, there are over a dozen states that
-                    provide more comprehensive coverage for abortion using state Medicaid funds. To find out more on state funding of abortions under Medicaid visit this website
+                    provide more comprehensive coverage for abortion using state Medicaid funds. 
+                    To find out more on state funding of abortions under Medicaid <span className="inline"><ExternalLink label="visit this website" path="" /></span>
                 </li>
             </ul>
             <br />
@@ -36,11 +38,11 @@ export default function AccessAbortion() {
             </ul>
             <br />
             <p>If you need help paying for an abortion, abortion funds may be able to provide financial assistance.
-                Information about abortion funds and resources to help are available at AbortionFinder.org</p>
+                Information about abortion funds and resources to help are available at <span className="inline"><ExternalLink label="AbortionFinder.org" path="https://www.abortionfinder.org/" /></span>.</p>
             <br />
-            <p>If you need information on your state’s laws or legal help, you may consider this website: AbortionFinder.org</p>
+            <p>If you need information on your state’s laws or legal help, you may consider this website: <span className="inline"><ExternalLink label="AbortionFinder.org" path="https://www.abortionfinder.org/" /></span>.</p>
             <br />
-            `
+            
 
         </>
     )

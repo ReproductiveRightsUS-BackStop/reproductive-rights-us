@@ -1,5 +1,6 @@
 
 import hhsLogo from '../../assets/hhs-logo.png';
+import ExternalLink from '../../components/ExternalLink';
 import ContactLinks from './ContactLinks';
 import References from './References';
 
@@ -9,16 +10,16 @@ export default function Footer() {
 
 
     return (
-        <div className="bottom-0 w-full bg-gray-200 w-ful h-fit p-12 relative top-24">
-            <p>Footer</p>
+        <div className="relative bottom-0 w-full bg-gray-200 p-12">
             <div className="grid grid-cols-12">
-                <div className="col-span-2">
-                    <img src={hhsLogo} alt="HHS Logo" />
+                <div className="col-span-1">
+                    <img src={hhsLogo} alt="HHS Logo" className="w-12" />
                 </div>
-                <div className="col-span-10 text-black">
-                    <p>
-                        ReproductiveRights.gov
-                        <strong>An official website of the </strong><a>Department of Health and Human Services</a>
+                <div className="col-span-11 text-black p-6">
+                    <p>ReproductiveRights.gov</p>
+                    <p><strong>An official website of the &nbsp;
+                        <span className="inline"><ExternalLink label="Department of Health and Human Services" path="https://hhs.gov/" /></span>
+                    </strong>
                     </p>
                 </div>
 
@@ -39,7 +40,7 @@ export default function Footer() {
             <p className="bg-white text-gray-700 p-3">*** END OF OFFICIAL CONTENT ***</p>
             <hr className="bg-black h-2 my-3" />
             <br />
-           <References />
+            <References />
         </div>
     )
 }
