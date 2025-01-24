@@ -7,7 +7,7 @@ export default function EmergencyCare() {
 
     return (
 
-        <div className=" block w-full h-screen min-h-screen top-48 mb-36">
+        <div className="top-48 mb-36 p-6">
             <div className="w-full">
                 <br />
                 <p className="text-3xl">Your Right to Emergency Medical Care</p>
@@ -69,13 +69,13 @@ export default function EmergencyCare() {
                             To contact your state's survey agency, use the tool below.
                         </li>
                         <li className="my-2">
-                            To file a complaint with the Centers for Medicare & Medicaid Services click here.
+                            To file a complaint with the Centers for Medicare & Medicaid Services click <ExternalLink label={"here."} path={"https://www.cms.gov/priorities/your-patient-rights/emergency-room-rights"} />
                         </li>
                     </ul>
                 </ul>
 
             </div>
-            <div className="rounded-lg border-2 m-6 p-12 w-full h-fit mb-36">
+            <div className="rounded-lg border-2 m-6 p-12 h-fit mb-36 text-xl font-bold">
                 <ExternalLink label={"Contact Information for Filing a Complaint with the State Survey Agency"} path={"https://www.cms.gov/medicare/health-safety-standards/quality-safety-oversight-general-information/contact-information"} />
             </div>
         </div>

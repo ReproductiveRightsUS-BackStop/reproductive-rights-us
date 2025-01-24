@@ -4,7 +4,7 @@ import AppRoutes from "../routes/AppRoutes";
 
 export default function MainArea() {
     return (
-        <div>
+        <div id="main-area">
             <AppRoutes />
             <Outlet />
         </div>

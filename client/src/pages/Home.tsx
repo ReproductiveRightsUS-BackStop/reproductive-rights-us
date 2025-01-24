@@ -5,7 +5,7 @@ import ReproductiveRights from "../sections/ReproductiveRights/ReproductiveRight
 export default function Home() {
 
     return (
-        <div className="w-full min-h-screen mt-24">
+        <div className="w-full min-h-screen">
             <div>
                 <div className="text-white rounded-lg m-0 lg:m-12 p-6 lg:p-2 bg-blue-950">
                     <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-center wrap leading-none">Update on Medication Abortion</h1>
