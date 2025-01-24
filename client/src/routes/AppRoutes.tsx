@@ -7,7 +7,7 @@ export default function AppRoutes() {
 
     return (
         <Routes>
-            <Route path="/"
+            <Route path="/reproductive-rights-us"
                 element={<Home />}
             />
             <Route path="/emergency-care"

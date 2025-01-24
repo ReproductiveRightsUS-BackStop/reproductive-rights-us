@@ -7,10 +7,9 @@ import Disclaimer from './Disclaimer';
 
 export default function Header() {
 
-
     return (
-        <>
-            <div className="w-full h-fit">
+    
+            <div className="fixed top-0 block w-full bg-white z-10">
                 <Disclaimer />
                 <nav className="w-full h-12 bg-gray-500">
                     <div className="bg-gray w-full grid grid-cols-12">
@@ -21,18 +20,18 @@ export default function Header() {
                         </span>
 
                         <div className="col-span-12 md:col-span-6  lg:col-span-3 inline m-3 text-blue-950 hover:text-blue-500">
-                            <p>Please see below for links and screenshots for where this information came from</p>
+                            <p className="text-xs md:text-sm xl:text-base">Please see below for links and screenshots for where this information came from</p>
                         </div>
                     </div>
                     <div className="mt-3" >
-                        <Link to={'/'}>
+                        <Link to={'/reproductive-rights-us'}>
                             <div className="inline-flex float-left">
-                                <img src={govLogo} alt="Reproductive Rights USHSS Logo" className="w-12 mr-6" />
+                                <img src={govLogo} alt="Reproductive Rights USHSS Logo" className="w-8 h-8 translate-y-3 lg:w-12 mr-3" />
                                 <h1 className="text-blue-950 font-bold mt-3 text-xl">REPRODUCTIVE <span className="font-normal">RIGHTS.</span><span className="text-gray-400 font-normal">GOV</span></h1>
                             </div>
                         </Link>
                     </div>
-                    <div className="float-right inline-flex">
+                    <div className="float-right inline-flex h-fit mb-24">
                         <a href="#reproductive-rights">
                             <p className="mx-3 p-3 text-blue-500 hover:text-blue-900 hover:bg-gray-300 rounded-lg">Your Rights</p>
                         </a>
@@ -42,6 +41,6 @@ export default function Header() {
                     </div>
                 </nav >
             </div>
-        </>
+      
     )
 }

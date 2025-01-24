@@ -8,7 +8,6 @@ export default function ContactLinks() {
 
     return (
         <>
-            contact
             <div className="grid grid-cols-12">
                 <div className="col-span-12 lg:col-span-4">
                     <h2 className="font-serif font-semibold">

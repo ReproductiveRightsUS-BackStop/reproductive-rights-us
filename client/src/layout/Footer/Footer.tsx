@@ -4,13 +4,10 @@ import ExternalLink from '../../components/ExternalLink';
 import ContactLinks from './ContactLinks';
 import References from './References';
 
-
 export default function Footer() {
 
-
-
     return (
-        <div className="relative bottom-0 w-full bg-gray-200 p-12">
+        <div className="bg-gray-200 p-12">
             <div className="grid grid-cols-12">
                 <div className="col-span-1">
                     <img src={hhsLogo} alt="HHS Logo" className="w-12" />

@@ -6,11 +6,15 @@ import MainArea from "./layout/MainArea"
 function App() {
 
   return (
-      <div className="static p-12">
+      <div className="block">
         <Header />
+        <div className="relative top-0 h-96">
+        </div>
+        <div className="relative top-0 h-12">
+        </div>
+       
         <MainArea />
-        <Separator />
-        <Separator />
+  
         <Separator />
         <Footer />
       </div>

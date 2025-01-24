@@ -7,7 +7,7 @@ export default function EmergencyCare() {
 
     return (
 
-        <div className="w-full h-screen min-h-screen top-48 mb-36">
+        <div className=" block w-full h-screen min-h-screen top-48 mb-36">
             <div className="w-full">
                 <br />
                 <p className="text-3xl">Your Right to Emergency Medical Care</p>
